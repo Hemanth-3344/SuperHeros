@@ -1,0 +1,16 @@
+{
+  "createSuperHero": {
+    "name": "Tony",
+    "superName": "Iron Man",
+    "profession": "Business",
+    "age": 50,
+    "canFly": true
+  },
+  "updateSuperHero": {
+    "name": "Ivan",
+    "superName": "Hulk",
+    "profession": "Mechanical Engineer",
+    "age": 30,
+    "canFly": false
+  }
+}

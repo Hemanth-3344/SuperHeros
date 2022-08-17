@@ -209,8 +209,9 @@ public class MyStepdefs {
 
     @Then("Deleting a user")
     public void deletingAUser() {
-        given().when().delete(EndPoints.heroEndPoint+"/"+responseHero.getId()).
+        response=given().when().delete(EndPoints.heroEndPoint+"/"+responseHero.getId()).
                 then().statusCode(200).extract().response();
+        Assert.assertEquals(response.getBody().asString(),"Deleted successfully...!");
     }
 
 

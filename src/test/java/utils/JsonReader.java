@@ -16,7 +16,7 @@ public class JsonReader {
         }
         return UserData;
     }
-    public static void main(String[] args)
+   public static void main(String[] args)
     {
         inputData();
     }
